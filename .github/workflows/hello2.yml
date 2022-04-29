@@ -12,3 +12,7 @@ jobs:
       - name: Echo the message
         run: |
           echo: "Hola"
+
+      - name: Echo 2 
+        run: | 
+          echo: "Echo 2 "
