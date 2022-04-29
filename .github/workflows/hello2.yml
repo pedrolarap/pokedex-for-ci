@@ -11,8 +11,8 @@ jobs:
     steps:
       - name: Echo the message
         run: |
-          echo: "Hola"
+          echo "Hola"
 
       - name: Echo 2 
         run: | 
-          echo: "Echo 2 "
+          echo "Echo 2 "
