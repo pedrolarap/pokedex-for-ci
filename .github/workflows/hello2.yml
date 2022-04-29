@@ -3,12 +3,12 @@ name: Say Hello 2
 on:
   push:
     branches: 
-    - main
+      - main
 
 jobs:
   hello_world:
     runs-on: ubuntu-18.04
     steps:
-     - name: Echo the message
-       run: |
-        echo: "Hola"
+      - name: Echo the message
+        run: |
+          echo: "Hola"
